@@ -22,7 +22,7 @@ export default class ColoredUserpic extends React.Component {
       height: size + margin/2 + colorWidth,
       border: `double ${colorWidth}px transparent`,
       borderRadius: '50%',
-      backgroundImage: `linear-gradient(white, white), radial-gradient(circle at top left, ${colors[0]},${colors[1]})`,
+      backgroundImage: `linear-gradient(white, white), radial-gradient(circle at left, ${colors[0]},${colors[1]})`,
       backgroundOrigin: 'border-box',
       backgroundClip: 'content-box, border-box',
     };
